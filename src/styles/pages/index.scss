@@ -1,0 +1,161 @@
+* {
+    padding: 10px;
+}
+
+body {
+    font-family: sans-serif ;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+.selected {
+    border: 3px solid red;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.green {
+    color: green;
+}
+
+.brown {
+    color: brown;
+}
+
+.test-box {
+    background-color: grey;
+    color: white;
+    padding: 25px 25px;
+    margin: 10px 0;
+    text-align: center;
+    width: 400px;
+}
+
+form {
+    background-color: lightgrey;
+    padding: 20px 0;
+}
+
+#button-1 {
+    margin: 10px 0;
+}
+
+.orangeBg {
+    background-color: orange;
+}
+
+input[type="text"] {
+    border-radius: 4px;
+    width: 200px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 5px;
+    border: 2px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+    outline: none;
+}
+
+.focus {
+    border: 2px solid red !important;
+    box-shadow: 0px 1px 25px rgba(240, 76, 17, 0.623);
+}
+
+
+.testBox {
+    background-color: grey;
+    color: white;
+    padding: 25px 25px;
+    margin: 10px 0;
+    text-align: center;
+    width: 400px;
+}
+
+.greenBg {
+    background-color: green;
+}
+
+.imgHolder {
+    display: flex;
+    justify-content: center;
+}
+
+.colorsSelector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colorItem {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.colorBlue {
+    background-color: blue;
+}
+
+.colorWhite {
+    background-color: wheat;
+}
+
+.colorRed {
+    background-color: red;
+}
+
+.colorBlack {
+    background-color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.box-container {
+    width: 500px;
+    // height: 100px; 
+    border: 5px solid grey;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.pinkBorder {
+    border: 5px solid pink;
+}
+
+.greenBorder {
+    border: 5px solid green;
+}
+
+.blueBorder {
+    border: 5px solid blue;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    text-align: center;
+}
+
+.model-summary {
+    background-color: lightgrey;
+    height: 230px;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+.model-price, .model-name {
+    font-weight: 700;
+}

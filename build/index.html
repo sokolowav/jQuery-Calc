@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery</title>
+  <link rel="stylesheet" href="styles/app.min.css">
+
+</head>
+<body>
+  <!-- <p>before...</p>
+  <button id="button">Кнопка</button>
+  <p>...after</p>
+
+  <div class="block">
+    <p class="inner">Параграф 1</p>
+    <p>Параграф 2</p>
+  </div>
+
+  <ul>
+    <li class="green">Первый элемент списка</li>
+    <li id="second-list-item">Второй элемент списка</li>
+    <li>Третий элемент списка</li>
+  </ul> -->
+
+  <!-- <h1 id="topHeader">jQuery события</h1>
+
+  <button id="button-1">Сменить цвет</button>
+
+  <div id="testArea" class="test-box">
+    Наведи курсор
+  </div>
+
+  <h2>Форма</h2>
+
+  <form action="">
+    <p><b>Текст:</b>
+    <span id="textHolder"></span>
+    </p>
+    <input type="text" id="inputName">
+  </form> -->
+
+  <!-- <h1 id="topHeader">jQuery работа с классами</h1>
+
+  <div id="testBox" class="testBox"></div>
+
+  <button id="addGreen">+Зеленый фон</button>
+  <button id="removeGreen">-Зеленый фон</button>
+  <button id="toggleGreen">+/-Зеленый фон</button>
+  <button id="customCSS">Свой CSS</button> -->
+
+  <!-- <h1 id="topHeader">jQuery анимация</h1>
+  <button id="customWidth">Изменить ширину</button>
+  <button id="customOpacity">Изменить прозрачность</button>
+  <br><br>
+  <button id="hide">Скрыть</button>
+  <button id="show">Показать</button>
+  <button id="hideAndShow">Скрыть \ показать</button>
+  <br><br>
+  <button id="fadeOut">fade-скрыть</button>
+  <button id="fadeIn">fade-показать</button>
+  <button id="fadeToggle">fade скрыть\показать</button>
+  <br><br>
+  <button id="slideUp">slide - скрыть</button>
+  <button id="slideDown">slide - показать</button>
+  <button id="slideToggle">slide - скрыть\показать</button>
+  <div id="testBox" class="testBox greenBg"></div> -->
+
+
+  <!-- <h1 id="topHeader">jQuery форма</h1>
+  <h2>Форма и атрибуты</h2>
+  <form action="" id="formSum">
+    <label for="numberOne">Число 1</label>
+    <input type="text" id="numberOne" autofocus>
+    <label for="numberTwo">Число 2</label>
+    <input type="text" id="numberTwo">
+    <input type="submit" value="Сумма">
+    <p><b>Сумма:<span id="sumResult" class="sumResult"></span></b></p>
+  </form> -->
+
+
+  <!-- <h1 id="topHeader">jQuery атрибуты</h1>
+  <h2>Изображения и атрибуты</h2>
+
+  <div id="imgHolder" class="imgHolder">
+    <img src="images/black.png" alt="Solaris">
+  </div>
+  <div id="colorsSelector" class="colorsSelector">
+    <div class="colorItem colorBlue" data-image-path="images/blue.png"></div>
+    <div class="colorItem colorWhite" data-image-path="images/white.png"></div>
+    <div class="colorItem colorRed" data-image-path="images/red.png"></div>
+    <div class="colorItem colorBlack" data-image-path="images/black.png"></div>
+  </div> -->
+
+
+  <!-- <h1 id="topHeader">jQuery работа с разметкой</h1>
+  <h2>Добавление текста и разметки на страницу</h2>
+  <div class="center">
+    <div id="testBox" class="box-container"></div>
+  </div>
+  <p id="textNoWrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facilis tempora 
+    perferendis qui natus excepturi quae, et ducimus ipsum, neque voluptas cum laudantium, fugiat 
+    quis inventore vitae numquam placeat expedita!
+  </p>
+  <div class="blueBorder">
+    <div class="greenBorder">
+      <p id="textInWrap">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit in labore expedita? 
+        Accusantium hic vitae quo ad cum, sed facere? Necessitatibus magnam quod exercitationem consequuntur 
+        repudiandae enim explicabo sequi!
+      </p>
+    </div>
+  </div>
+  <div id="toDeleteEmpty" class="greenBorder">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nesciunt sed veniam quia perspiciatis reiciendis voluptatem dicta omnis ut minus ea.
+  </div>
+  <div id="toDeleteRemove" class="pinkBorder">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Nesciunt sed veniam quia perspiciatis reiciendis voluptatem dicta omnis ut minus ea.
+  </div>       -->
+
+
+  <div id="imgHolder" class="imgHolder">
+    <img src="images/black.png" alt="Solaris">
+    <div class="model-summary">
+      <div class="model-name">Hundai Solaris</div>
+      <div class="model-specs" id="modelSpecs"></div>
+      <div class="model-price" id="modelPrice"></div>
+      <div class="model-price" id="modelPriceUSD"></div>
+      <div class="button"><span>Заказать</span></div>
+    </div>
+  </div>
+
+  <form id="autoForm">
+    <h2>Настрой авто для себя</h2>
+    <div class="row">
+      
+      <div class="col-1-of-3">
+        <h4>Двигатель</h4>
+        <div class="form-block">
+          <input type="radio" name="engine" id="engine1400" value="624900" checked>
+          <label for="engine1400">1.4 л (100 л.с.)</label>
+        </div>
+        <div class="form-block">
+          <input type="radio" name="engine" id="engine1600" value="749900">
+          <label for="engine1600">1.6 л (123 л.с.)</label>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <h4>Коробка передач</h4>
+        <div class="form-block">
+          <input type="radio" name="transmisson" id="transmission6MT" value="0" checked>
+          <label for="tramsmission6MT">Ручная, 6 ступеней (6МТ)</label>
+        </div>
+        <div class="form-block">
+          <input type="radio" name="transmisson" id="transmission6AT" value="125000">
+          <label for="tramsmission6AT">Автомат, 6 ступеней (6AТ)</label>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <h4>Пакет (дополнительные опции)</h4>
+        <div class="form-block">
+          <input type="radio" name="package" id="packageActive" value="0" checked>
+          <label for="packageActive">Active</label>
+        </div>
+        <div class="form-block">
+          <input type="radio" name="package" id="packageActivePlus" value="85000">
+          <label for="packageActivePlus">ActivePlus(кондиционер)</label>
+        </div>
+        <div class="form-block">
+          <input type="radio" name="package" id="packageComfort" value="130000">
+          <label for="packageComfort">Comfort(климатконтроль)</label>
+        </div>
+      </div>
+    </div>
+
+    <h4>Цвет</h4>
+    <div class="form-block">
+      <div id="colorsSelector" class="colorsSelector">
+        <div class="colorItem colorBlue" data-image-path="images/blue.png"></div>
+        <div class="colorItem colorWhite" data-image-path="images/white.png"></div>
+        <div class="colorItem colorRed" data-image-path="images/red.png"></div>
+        <div class="colorItem colorBlack" data-image-path="images/black.png"></div>
+      </div>
+    </div>
+  </form>
+
+  <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+  <script src="scripts/main.js"></script>
+
+</body>
+</html>
